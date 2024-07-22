@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/bracketzone_2nd/static/css/main.f855e6bc.css",
-    "main.js": "/bracketzone_2nd/static/js/main.1c0db4ba.js",
+    "main.css": "/bracketzone_2nd/static/css/main.a7f75fbc.css",
+    "main.js": "/bracketzone_2nd/static/js/main.ecd47add.js",
     "static/js/453.31c567eb.chunk.js": "/bracketzone_2nd/static/js/453.31c567eb.chunk.js",
-    "static/media/logo.svg": "/bracketzone_2nd/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bracketzone_2nd/index.html",
-    "main.f855e6bc.css.map": "/bracketzone_2nd/static/css/main.f855e6bc.css.map",
-    "main.1c0db4ba.js.map": "/bracketzone_2nd/static/js/main.1c0db4ba.js.map",
+    "main.a7f75fbc.css.map": "/bracketzone_2nd/static/css/main.a7f75fbc.css.map",
+    "main.ecd47add.js.map": "/bracketzone_2nd/static/js/main.ecd47add.js.map",
     "453.31c567eb.chunk.js.map": "/bracketzone_2nd/static/js/453.31c567eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1c0db4ba.js"
+    "static/css/main.a7f75fbc.css",
+    "static/js/main.ecd47add.js"
   ]
 }
