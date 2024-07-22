@@ -1,0 +1,12 @@
+{
+    "groups": [
+        {
+            "id": 1,
+            "name": "SEG3125-Group",
+            "bracket_type": "hockey",
+            "nBrackets": 1,
+            "auto_bracket_maker": 1,
+            "nUsers" : 5
+        }
+    ]
+}
