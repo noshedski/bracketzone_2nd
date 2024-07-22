@@ -40,44 +40,6 @@ export default function Standings(){
         
     ])
 
-    const nhl_tasks = [
-        { id: 1, title: "Anaheim Ducks", URL : "https://content.sportslogos.net/logos/1/1736/full/anaheim_ducks_logo_primary_20253347.png" },
-        { id: 2, title: "Boston Bruins", URL : "https://content.sportslogos.net/logos/1/3/full/boston_bruins_logo_primary_2025_sportslogosnet-7260.png" },
-        { id: 3, title: "Buffalo Sabres", URL : "https://content.sportslogos.net/logos/1/4/full/buffalo_sabres_logo_primary_20212495.png" },
-        { id: 4, title: "Calgary Flames", URL : "https://content.sportslogos.net/logos/1/5/full/calgary_flames_logo_primary_20212695.png" },
-        { id: 5, title: "Carolina Hurricanes", URL : "https://content.sportslogos.net/logos/1/6/full/carolina_hurricanes_logo_primary_20004386.png" },
-        { id: 6, title: "Chicago Blackhawks", URL : "https://content.sportslogos.net/logos/1/7/full/56.png" },
-        { id: 7, title: "Colorado Avalanche", URL : "https://content.sportslogos.net/logos/1/8/full/64.png" },
-        { id: 8, title: "Columbus Blue Jackets", URL : "https://content.sportslogos.net/logos/1/9/full/jhepegs329pc7ugyypebl28wg.png" },
-        { id: 9, title: "Dallas Stars", URL : "https://content.sportslogos.net/logos/1/10/full/dallas_stars_logo_primary_2022_sportslogosnet-4332.png" },
-        { id: 10, title: "Detroit Red Wings", URL : "https://content.sportslogos.net/logos/1/11/full/yo3wysbjtagzmwj37tb11u0fh.png" },
-        { id: 11, title: "Edmonton Oilers", URL : "https://content.sportslogos.net/logos/1/12/full/edmonton_oilers_logo_primary_2023_sportslogosnet-2985.png" },
-        { id: 12, title: "Florida Panthers", URL : "https://content.sportslogos.net/logos/1/13/full/florida_panthers_logo_primary_20174924.png" },
-        { id: 13, title: "Los Angeles Kings", URL : "https://content.sportslogos.net/logos/1/14/full/los_angeles_kings_logo_primary_2025_sportslogosnet-7860.png" },
-        { id: 14, title: "Minnesota Wild", URL : "https://content.sportslogos.net/logos/1/15/full/8810_minnesota_wild-primary-2014.png" },
-        { id: 15, title: "Montreal Canadiens", URL : "https://content.sportslogos.net/logos/1/16/full/montreal_canadiens_logo_primary_20001687.png" },
-        { id: 16, title: "Nashville Predators", URL : "https://content.sportslogos.net/logos/1/17/full/lvchw3qfsun2e7oc02kh2zxb6.png" },
-        { id: 17, title: "New Jersey Devils", URL : "https://content.sportslogos.net/logos/1/18/full/32tfs723a3bes0p0hb4hgcy1u.png" },
-        { id: 18, title: "New York Islanders", URL : "https://content.sportslogos.net/logos/1/19/full/3911_new_york_islanders-primary-2018.png" },
-        { id: 19, title: "New York Rangers", URL : "https://content.sportslogos.net/logos/1/20/full/new_york_rangers-primary_20006777.png" },
-        { id: 20, title: "Ottawa Senators", URL : "https://content.sportslogos.net/logos/1/21/full/1129_ottawa_senators-primary-2021.png" },
-        { id: 21, title: "Philadelphia Flyers", URL : "https://content.sportslogos.net/logos/1/22/full/philadelphia_flyers_logo_primary_2024_sportslogosnet-3145.png" },
-        { id: 22, title: "Pittsburgh Penguins", URL : "https://content.sportslogos.net/logos/1/24/full/pittsburgh_penguins_logo_primary_20177954.png" },
-        { id: 23, title: "San Jose Sharks", URL : "https://content.sportslogos.net/logos/1/26/full/san_jose_sharks-primary_20099429.png" },
-        { id: 24, title: "Seattle Kraken", URL : "https://content.sportslogos.net/logos/1/6740/full/seattle_kraken_logo_primary_20226314.png" },
-        { id: 25, title: "St. Louis Blues", URL : "https://content.sportslogos.net/logos/1/25/full/187.png" },
-        { id: 26, title: "Tampa Bay Lightning", URL : "https://content.sportslogos.net/logos/1/27/full/tampa_bay_lightning_logo_primary_20124022.png" },
-        { id: 27, title: "Toronto Maple Leafs", URL : "https://content.sportslogos.net/logos/1/28/full/8761_toronto_maple_leafs-primary-2017.png" },
-        { id: 28, title: "Utah Hockey Club", URL : "https://content.sportslogos.net/logos/1/6902/full/utah_hockey_club_logo_primary_2025_sportslogosnet-8095.png"},
-        { id: 29, title: "Vancouver Canucks", URL : "https://content.sportslogos.net/logos/1/29/full/2084_vancouver_canucks-primary-2020.png" },
-        { id: 30, title: "Vegas Golden Knights", URL : "https://content.sportslogos.net/logos/1/6114/full/vegas_golden_knights_logo_primary_20185183.png" },
-        { id: 31, title: "Washington Capitals", URL : "https://content.sportslogos.net/logos/1/30/full/llrs2zxi127vkqgcsvfb.png" },
-        { id: 32, title: "Winnipeg Jets", URL : "https://content.sportslogos.net/logos/1/3050/full/z9qyy9xqoxfjn0njxgzoy2rwk.png" }
-
-    ];
-
-
-
     const getTaskPos = (id) => tasks.findIndex((task) => task.id === id);
 
     const handleDragEnd = (event) => {
